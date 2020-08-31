@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.requires_arc  = true
   s.ios.deployment_target = '8.0'
   
-  s.source         = { :http => 'https://sdk.devint.gcp.openx.org/apollo/ios/event-handlers/1.0.0/OpenX_Apollo_GAMEventHandlers_iOS_1.0.0.zip' }
+  s.source         = { :http => 'https://sdk.devint.gcp.openx.org/apollo/ios/event-handlers/GAM/1.0.0/OpenX_Apollo_GAMEventHandlers_iOS_1.0.0.zip' }
   s.ios.vendored_frameworks = 'OpenX_Apollo_GAMEventHandlers_iOS_1.0.0/OpenXApolloGAMEventHandlers.framework'
   
   ### For local lint:
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   # s.default_subspecs = 'main'
   
   # s.subspec 'main' do |ms| 
-  s.dependency    'openx-apollo-sdk'
+  s.dependency    'openx-apollo-sdk', '1.0.0'
   s.dependency    'Google-Mobile-Ads-SDK'
   # end
 end
