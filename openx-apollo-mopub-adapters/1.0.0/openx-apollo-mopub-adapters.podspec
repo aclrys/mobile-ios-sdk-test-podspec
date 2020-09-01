@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author            = { 'OpenX' => 'mobile-eng-team@openx.com' }
   
   s.requires_arc  = true
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
   
   s.source         = { :http => 'https://sdk.devint.gcp.openx.org/apollo/ios/event-handlers/MoPub/1.0.0/OpenX_Apollo_MoPub_Adapters_iOS_1.0.0.zip' }
   s.ios.vendored_frameworks = 'OpenX_Apollo_MoPub_Adapters_iOS_1.0.0/OpenXApolloMoPubAdapters.framework'
@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
   
   # s.subspec 'main' do |ms| 
   s.dependency    'openx-apollo-sdk', '1.0.0'
-  s.dependency    'mopub-ios-sdk'
+  s.dependency    'mopub-ios-sdk', '~>5.13.0'
   # end
 end
