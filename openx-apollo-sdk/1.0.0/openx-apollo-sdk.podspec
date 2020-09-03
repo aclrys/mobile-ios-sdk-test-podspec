@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name              = 'openx-apollo-sdk'
   s.version           = '1.0.0'
-  s.summary           = 'The Official OpenX Apollo SDK allows developers to easily monetize their apps by showing banner, interstitial, and native ads.'
-  s.homepage          = 'https://www.openx.com/'
+  s.summary           = 'The official OpenX Apollo SDK allows publishers to monetize their apps by In-App bidding.'
+  s.homepage          = 'https://www.openx.com/prebid/'
   s.documentation_url = 'https://github.com/openx/mobile-ios-sdk-doc'
   s.license           = { :type => 'Copyright', :text => 'Copyright 2020 OpenX. All rights reserved.\n' }
   s.author            = { 'OpenX' => 'mobile-eng-team@openx.com' }
