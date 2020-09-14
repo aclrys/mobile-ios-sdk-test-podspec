@@ -19,5 +19,6 @@ Pod::Spec.new do |s|
   
   # s.subspec 'main' do |ms| 
   s.dependency    'openx-apollo-sdk', '1.0.0'
+  s.dependency    'Google-Mobile-Ads-SDK', '>=7.44'
   # end
 end
