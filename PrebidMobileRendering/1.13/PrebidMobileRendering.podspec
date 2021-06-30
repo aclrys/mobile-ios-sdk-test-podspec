@@ -55,7 +55,7 @@ Pod::Spec.new do |s|
 
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 arm64e armv7 armv7s'}
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 arm64e armv7 armv7s'}
-  s.module_map   = 'PrebidMobile/Rendering/PrebidMobileRendering/PrebidMobileRenderingSDK/PrebidMobileRendering.modulemap'
+#s.module_map   = 'PrebidMobile/Rendering/PrebidMobileRendering/PrebidMobileRenderingSDK/PrebidMobileRendering.modulemap'
 
 
   s.source_files = 'PrebidMobile/Rendering/PrebidMobileRendering/PrebidMobileRendering/**/*.{h,m,swift}', 
