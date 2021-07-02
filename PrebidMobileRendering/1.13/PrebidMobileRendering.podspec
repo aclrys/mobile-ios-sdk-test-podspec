@@ -40,6 +40,8 @@ Pod::Spec.new do |s|
 :RAMEWORK_SEARCH_PATHS => '$(inherited)'
 }
 
+  s.requires_arc = true
+
   s.frameworks = [ 'UIKit', 
                    'Foundation', 
                    'MapKit', 
@@ -62,4 +64,6 @@ Pod::Spec.new do |s|
                    'PrebidMobile/Rendering/PrebidMobileRendering/PrebidMobileRenderingSDK/**/*.{h,m,swift}'
   s.resources    = 'PrebidMobile/Rendering/PrebidMobileRendering/PrebidMobileRendering/Assets/**/*.{json,png,js,html,xib}'
   s.vendored_frameworks = 'PrebidMobile/Rendering/PrebidMobileRendering/Frameworks/OMSDK_Prebidorg.framework'
+
+  s.static_framework = true
 end
