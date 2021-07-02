@@ -45,6 +45,8 @@ Pod::Spec.new do |s|
 
   s.source_files = 'PrebidMobile/Rendering/EventHandlers/PrebidMobileMoPubAdapters/**/*.{h,m,swift}'
 
+  s.static_framework = true
+
   s.dependency 'PrebidMobileRendering'
   s.dependency 'mopub-ios-sdk', '5.16.2'
 
